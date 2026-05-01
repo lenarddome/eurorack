@@ -1,0 +1,49 @@
+site_name: Eurorack
+site_description: Modular Synth Manuals and Inventory
+site_url: https://lenarddome.github.io/eurorack/
+
+theme:
+  name: terminal
+  palette: default
+  features:
+    - navigation.side.indexes
+
+plugins:
+  - search
+
+hooks:
+  - hooks/inventory.py
+  - hooks/section_index.py
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+
+# extra_css:
+#   - assets/sidebar-toggle.css
+
+# extra_javascript:
+#   - assets/sidebar-toggle.js
+
+nav:
+  - Home: index.md
+  - Modules:
+    - VCO:
+      - Chipz: modules/chipz.md
+    - Sequencer:
+      - Cellz: modules/cellz.md
+    - Power:
+      - RackBrute 6U Power: modules/rackbrute-power.md
+  - Gear:
+    - gear/index.md
+    - Synthesizers:
+      - Neutron: gear/neutron.md
+      - Crave: gear/crave.md
+    - Controllers:
+      - MPK Mini: gear/mpk-mini.md
+    - Audio Interface:
+      - UMC204HD: gear/umc204hd.md
+    - Cases:
+      - RackBrute 6U: gear/rackbrute-6u.md
+  - Inventory: inventory.md
