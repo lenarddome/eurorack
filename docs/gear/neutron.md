@@ -1,5 +1,7 @@
 # Neutron
 
+![Behringer Neutron](../assets/neutron.jpg){width=900}
+
 **Manufacturer:** Behringer  
 **Type:** Semi-Modular Paraphonic Synthesizer  
 **Power:** USB or DC 12V

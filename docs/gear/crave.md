@@ -1,5 +1,7 @@
 # Crave
 
+![Behringer Crave](../assets/crave.jpg){width=600}
+
 **Manufacturer:** Behringer  
 **Type:** Semi-Modular Analog Synthesizer  
 **Power:** USB or DC 12V

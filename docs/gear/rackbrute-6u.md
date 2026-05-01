@@ -1,5 +1,8 @@
 # RackBrute 6U
 
+![Arturia Rackbrute 6u](../assets/rackbrute.jpg)
+
+
 **Manufacturer:** Arturia  
 **Type:** Eurorack Case  
 **Power:** Meanwell external PSU (included)

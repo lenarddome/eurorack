@@ -1,5 +1,7 @@
 # MPK Mini
 
+![AKAI MPK3 MINI](../assets/mpk3.png)
+
 **Manufacturer:** Akai  
 **Type:** USB MIDI Keyboard Controller  
 **Power:** USB bus powered

@@ -29,6 +29,9 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Modules:
+    - modules/index.md
+    - Mixers:
+      - A-138b Mini Mixer: modules/a-138b-mixer.md
     - VCO:
       - Chipz: modules/chipz.md
     - Sequencer:

@@ -1,5 +1,7 @@
 # Chipz
 
+![Chipz Module](../assets/chipz.jpg){width=300}
+
 **Manufacturer:** Cre8audio  
 **Type:** VCO / LFO — Dual Oscillator  
 **HP:** 12 | **Depth:** 30mm  

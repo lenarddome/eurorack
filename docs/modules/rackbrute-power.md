@@ -1,5 +1,7 @@
 # RackBrute 6U Power
 
+![Rackbrute 6u Power Module](../assets/rackbrute-power.jpg)
+
 **Manufacturer:** Arturia  
 **Type:** Power Supply Panel  
 **HP:** 5 | **Depth:** 80mm  

@@ -1,5 +1,7 @@
 # Cellz
 
+![Cellz module](../assets/cellz.jpg){width=300}
+
 **Manufacturer:** Cre8audio  
 **Type:** Sequencer — CV Touch Pad  
 **HP:** 12 | **Depth:** 30mm  
