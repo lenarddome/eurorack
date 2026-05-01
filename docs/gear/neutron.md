@@ -1,6 +1,7 @@
 # Neutron
 
 ![Behringer Neutron](../assets/neutron.jpg){width=900}
+![Behringer Neutron Back Panel](../assets/neutron-back.jpg){width=900}
 
 **Manufacturer:** Behringer  
 **Type:** Semi-Modular Paraphonic Synthesizer  
@@ -18,11 +19,7 @@ The Neutron is a paraphonic semi-modular synthesizer with 56 patch points. It re
 
 ## Signal Path (Default)
 
-```
-OSC 1 + OSC 2 → MIXER → STEINER-PARKER FILTER → VCA → OUTPUT
-                              ↑
-                  LFO / ENVELOPE (internal normalling)
-```
+![Neutron Signal Path](../assets/neutron-signal-path.png)
 
 ---
 

@@ -1,6 +1,7 @@
 # Crave
 
 ![Behringer Crave](../assets/crave.jpg){width=600}
+![Crave Back Panel](../assets/crave-back.png){width=600}
 
 **Manufacturer:** Behringer  
 **Type:** Semi-Modular Analog Synthesizer  
@@ -18,11 +19,7 @@ The Crave is a monophonic semi-modular analog synthesizer with a built-in 32-ste
 
 ## Signal Path (Default)
 
-```
-VCO → LADDER FILTER → VCA → OUTPUT
-         ↑
-LFO / AHD ENVELOPE (internally normalled)
-```
+![Crave Signal Path](../assets/crave-signal-path.png)
 
 ---
 

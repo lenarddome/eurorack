@@ -1,5 +1,7 @@
 # UMC204HD
 
+![UMC204HD](../assets/umch204hd.webp)
+
 **Manufacturer:** Behringer  
 **Type:** USB Audio Interface  
 **Power:** USB bus powered
