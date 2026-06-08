@@ -70,3 +70,5 @@ Steiner-Parker multimode filter — simultaneously outputs LP, BP, HP, and Notch
 **Eurorack integration:** The Neutron runs at Eurorack signal levels (+/-5V audio, 0–5V CV). Patch its ENV OUT or LFO OUT into modules directly, or send Eurorack CV into CUTOFF CV or OSC 1/2 inputs.
 
 **Paraphony:** Both oscillators track the same MIDI pitch by default. In paraphonic mode, they play the last two notes held simultaneously through the shared filter.
+
+**Bypass Overdrive:** The neutron signal path takes the VCF output into the overdrive before it feeds it into the VCA. Patch VCF1 output to VCA1 to bypass the overdrive.

@@ -32,6 +32,9 @@ nav:
     - modules/index.md
     - Mixers:
       - A-138b Mini Mixer: modules/a-138b-mixer.md
+    - Utility:
+      - A-160-2 Clock Divider: modules/a-160-2-clock-divider.md
+      - A-180-3 Buffered Multiple: modules/a-180-3-buffered-multiple.md
     - VCO:
       - Chipz: modules/chipz.md
     - Sequencer:
