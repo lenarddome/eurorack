@@ -35,6 +35,10 @@ nav:
     - Utility:
       - A-160-2 Clock Divider: modules/a-160-2-clock-divider.md
       - A-180-3 Buffered Multiple: modules/a-180-3-buffered-multiple.md
+    - VCA:
+      - A-142-2 Dual Envelope VCA: modules/a-142-2-dual-env-vca.md
+    - Output:
+      - HPO Headphone Output: modules/hpo.md
     - VCO:
       - Chipz: modules/chipz.md
     - Sequencer:
