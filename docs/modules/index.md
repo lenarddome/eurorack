@@ -17,5 +17,8 @@ Euroack modules in the studio.
 ## Sequencers
 - [Cre8Audio Cellz](cellz.md) - A dual unipolar control voltage generator with 16 touch sensitive pads
 
+## Drums
+- [Endorphin.es Queen of Pentacles](queen-of-pentacles.md) - 7-voice hybrid analog/sample drum module with onboard effects
+
 ## Power
 - [Arturia Rackbrute 6UPower](rackbrute-power.md) - Built-in power mdoule for the Rackbrute 6U Case.

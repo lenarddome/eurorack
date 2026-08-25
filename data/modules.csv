@@ -1,17 +1,19 @@
 Module,Brand,Description,Width,Depth,+12V (mA),-12V (mA),Owned,Eurorack Module
 RackBrute 6UPower,Arturia,RackBrute power supply panel,5 HP,80 mm,,,Yes,Yes
-Rhythmi,Omnitone,Semi-random drum sequencer,12 HP,25 mm,,,No,Yes
-Beatsi,Omnitone,Compact 5 piece drum voice,8 HP,20 mm,,,No,Yes
-Clouds,After Later Audio,New build of Mutable Instruments Clouds,18 HP,?,,, No,Yes
-A-124 Wasp Filter,Doepfer,12db/oct multimode filter,8 HP,45 mm,,,No,Yes
 Cellz,Cre8audio,Programmable CV touch pad,12 HP,30 mm,,,Yes,Yes
 Chipz (Ltd. panel),Cre8audio,Dual voltage-controlled oscillator / LFO,12 HP,30 mm,,,Yes,Yes
-Man-Machine Interface Astra,Herzlich Labs,Active vactrol-powered performance controller,4 HP,16 mm,,,No,Yes
 A-138b Mini Mixer,Doepfer,4-channel mini mixer,8 HP,30 mm,,,Yes,Yes
 A-160-2 Clock/Trigger Divider,Doepfer,8-output clock divider,4 HP,30 mm,30,0,Yes,Yes
-A-180-3 Buffered Multiple,Doepfer,Dual buffered 1-in-3 multiple,4 HP,25 mm,20,20,Yes,Yes
 A-142-2 Dual Envelope Controlled VCA,Doepfer,Dual envelope generator + VCA (silver panel),8 HP,45 mm,60,60,Yes,Yes
 HPO,ALM Busy Circuits,Stereo headphone output,2 HP,38 mm,5,5,Yes,Yes
+Queen of Pentacles,Endorphin.es,7-voice hybrid analog/sample drum module with FX,30 HP,26.5 mm,350,90,Yes,Yes
+Neutron,Behringer,Semi-modular paraphonic synthesizer,N/A,N/A,,,Yes,No
+Crave,Behringer,Semi-modular analog synthesizer,N/A,N/A,,,Yes,No
+MPK Mini,Akai,USB MIDI keyboard controller,N/A,N/A,,,Yes,No
+UMC204HD,Behringer,USB audio interface,N/A,N/A,,,Yes,No
+RackBrute 6U,Arturia,Eurorack case - 2x88HP rows,N/A,N/A,,,Yes,No
+A-124 Wasp Filter,Doepfer,12db/oct multimode filter,8 HP,45 mm,,,No,Yes
+Man-Machine Interface Astra,Herzlich Labs,Active vactrol-powered performance controller,4 HP,16 mm,,,No,Yes
 Pico Multi2,Erica Synths,Buffered multiple,3 HP,35 mm,,,No,Yes
 Pico Trigger,Erica Synths,Polyrhythmic trigger generator and clock source,3 HP,35 mm,,,No,Yes
 Turing Machine Mk II,Music Thing Modular,Random looping sequencer,10 HP,38 mm,,,No,Yes
@@ -21,8 +23,4 @@ Coma Reactor V2,Animal Factory Amplification,Textural delay,12 HP,22 mm,,,No,Yes
 FX AID XL (black & gold),Happy Nerding,Multiple audio effects,6 HP,45 mm,,,No,Yes
 Triplatt,Intellijel,Triple attenuverter / mixer / DC voltage source,6 HP,21 mm,,,No,Yes
 Weather Drones 1.5,Eowave,Complete ethereal drone synth voice,24 HP,38 mm,,,No,Yes
-Neutron,Behringer,Semi-modular paraphonic synthesizer,N/A,N/A,,,Yes,No
-Crave,Behringer,Semi-modular analog synthesizer,N/A,N/A,,,Yes,No
-MPK Mini,Akai,USB MIDI keyboard controller,N/A,N/A,,,Yes,No
-UMC204HD,Behringer,USB audio interface,N/A,N/A,,,Yes,No
-RackBrute 6U,Arturia,Eurorack case - 2x88HP rows,N/A,N/A,,,Yes,No
+A-180-3 Buffered Multiple,Doepfer,Dual buffered 1-in-3 multiple,4 HP,25 mm,20,20,Yes,Yes
