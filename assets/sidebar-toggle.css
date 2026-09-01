@@ -1,0 +1,20 @@
+.terminal-mkdocs-side-nav-toggle {
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+    width: 1em;
+    margin-right: 0.25em;
+    color: var(--secondary-color);
+}
+
+.terminal-mkdocs-side-nav-toggle::before {
+    content: "▾";
+}
+
+.terminal-mkdocs-side-nav-li.collapsed > .terminal-mkdocs-side-nav-toggle::before {
+    content: "▸";
+}
+
+.terminal-mkdocs-side-nav-li.collapsed > .terminal-mkdocs-side-nav-li-ul {
+    display: none;
+}

@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="generator" content="mkdocs-1.6.1, mkdocs-terminal-4.8.0">
+    
+    <meta name="description" content="Modular Synth Manuals and Inventory"> 
+     
+    
+    <link rel="canonical" href="https://lenarddome.github.io/eurorack/gear/neutron/"><link rel="icon" type="image/png" sizes="192x192" href="../../img/android-chrome-192x192.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="../../img/android-chrome-512x512.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="../../img/apple-touch-icon.png" />
+<link rel="shortcut icon" type="image/png" sizes="48x48" href="../../img/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon-32x32.png" />
+
+
+    
+ 
+<title>Neutron - Eurorack</title>
+
+
+<link href="../../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+<link href="../../css/fontawesome/css/solid.min.css" rel="stylesheet">
+<link href="../../css/normalize.css" rel="stylesheet">
+<link href="../../css/terminal.css" rel="stylesheet">
+<link href="../../css/theme.css" rel="stylesheet">
+<link href="../../css/theme.tile_grid.css" rel="stylesheet">
+<link href="../../css/theme.footer.css" rel="stylesheet">
+<!-- default color palette -->
+<link href="../../css/palettes/default.css" rel="stylesheet">
+
+<!-- page layout -->
+<style>
+/* initially set page layout to a one column grid */
+.terminal-mkdocs-main-grid {
+    display: grid;
+    grid-column-gap: 1.4em;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+/*  
+*   when side navigation is not hidden, use a two column grid.  
+*   if the screen is too narrow, fall back to the initial one column grid layout.
+*   in this case the main content will be placed under the navigation panel. 
+*/
+@media only screen and (min-width: 70em) {
+    .terminal-mkdocs-main-grid {
+        grid-template-columns: 4fr 9fr;
+    }
+}</style>
+
+
+
+     
+    
+    
+
+    
+    <!-- search css support -->
+<link href="../../css/search/bootstrap-modal.css" rel="stylesheet">
+<!-- search scripts -->
+<script>
+    var base_url = "../..",
+    shortcuts = "{}";
+</script>
+<script src="../../js/jquery/jquery-1.10.1.min.js" defer></script>
+<script src="../../js/bootstrap/bootstrap.min.js" defer></script>
+<script src="../../js/mkdocs/base.js" defer></script>
+    
+    
+    
+    
+    <script src="../../search/main.js"></script>
+    
+
+    
+</head>
+
+<body class="terminal"><div class="container">
+    <div class="terminal-nav">
+        <header class="terminal-logo">
+            <div id="mkdocs-terminal-site-name" class="logo terminal-prompt"><a href="https://lenarddome.github.io/eurorack/" class="no-style">Eurorack</a></div>
+        </header>
+        
+        <nav class="terminal-menu">
+            
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../.." class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Home</span>
+                    </a>
+                    <meta property="position" content="0">
+                </li>
+                
+                
+                
+                
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../../inventory/" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Inventory</span>
+                    </a>
+                    <meta property="position" content="1">
+                </li>
+                
+                    
+                    
+
+
+<li property="itemListElement" typeof="ListItem">
+    <a href="#" class="menu-item" data-toggle="modal" data-target="#mkdocs_search_modal" property="item" typeof="SearchAction">
+        <i aria-hidden="true" class="fa fa-search"></i> <span property="name">Search</span>
+    </a>
+    <meta property="position" content="2">
+</li>
+                    
+            </ul>
+            
+        </nav>
+    </div>
+</div>
+        
+    <div class="container">
+        <div class="terminal-mkdocs-main-grid"><aside id="terminal-mkdocs-side-panel"><nav>
+    <ul class="terminal-mkdocs-side-nav-items">
+        
+          <li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../..">Home</a>
+        
+    
+    
+    
+       </li>
+        
+          <li class="terminal-mkdocs-side-nav-li">
+    
+        
+        
+            
+            
+                
+                
+        
+             
+            
+    
+        
+        <a class="terminal-mkdocs-side-nav-item" href="../../modules/">Modules</a>
+    
+    
+        
+        
+            <ul class="terminal-mkdocs-side-nav-li-ul">
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-mixers/">Mixers</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-utility/">Utility</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-vca/">VCA</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-output/">Output</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-vco/">VCO</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-sequencer/">Sequencer</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-drums/">Drums</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-power/">Power</a>
+        
+    
+    </li>
+            
+            
+    </ul>
+        
+    
+       </li>
+        
+          <li class="terminal-mkdocs-side-nav-li">
+    
+        
+        
+            
+            
+                
+                
+        
+             
+            
+    
+        
+        <a class="terminal-mkdocs-side-nav-item" href="../">Gear</a>
+    
+    
+        
+        
+            <ul class="terminal-mkdocs-side-nav-li-ul">
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/gear-synthesizers/">Synthesizers</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/gear-controllers/">Controllers</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/gear-audio-interface/">Audio Interface</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/gear-cases/">Cases</a>
+        
+    
+    </li>
+            
+            
+    </ul>
+        
+    
+       </li>
+        
+          <li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../inventory/">Inventory</a>
+        
+    
+    
+    
+       </li>
+        
+    </ul>
+</nav><hr>
+<nav>
+    <ul>
+        <li><a href="#neutron">Neutron</a></li>
+        <li><a href="#overview">Overview</a></li><li><a href="#signal-path-default">Signal Path (Default)</a></li><li><a href="#oscillators">Oscillators</a></li><li><a href="#filter">Filter</a></li><li><a href="#patch-points-selected">Patch Points (selected)</a></li><li><a href="#notes">Notes</a></li>
+    </ul>
+</nav>
+</aside>
+            <main id="terminal-mkdocs-main-content">
+<section id="mkdocs-terminal-content">
+    <h1 id="neutron">Neutron</h1>
+<p><img alt="Behringer Neutron" src="../../assets/neutron.jpg" width="900" />
+<img alt="Behringer Neutron Back Panel" src="../../assets/neutron-back.jpg" width="900" /></p>
+<p><strong>Manufacturer:</strong> Behringer<br />
+<strong>Type:</strong> Semi-Modular Paraphonic Synthesizer<br />
+<strong>Power:</strong> USB or DC 12V</p>
+<p><a href="../../manuals/neutron.pdf">Download Manual</a></p>
+<hr />
+<h2 id="overview">Overview</h2>
+<p>The Neutron is a paraphonic semi-modular synthesizer with 56 patch points. It requires no patching to make sound — all modules are normalled internally — but the patch bay exposes every stage for Eurorack integration.</p>
+<hr />
+<h2 id="signal-path-default">Signal Path (Default)</h2>
+<p><img alt="Neutron Signal Path" src="../../assets/neutron-signal-path.png" /></p>
+<hr />
+<h2 id="oscillators">Oscillators</h2>
+<table>
+<thead>
+<tr>
+<th>Control</th>
+<th>Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RANGE</td>
+<td>Octave selector (32', 16', 8', 4', 2')</td>
+</tr>
+<tr>
+<td>TUNE</td>
+<td>Coarse pitch</td>
+</tr>
+<tr>
+<td>WAVEFORM</td>
+<td>Saw, square/PWM, triangle, sine</td>
+</tr>
+<tr>
+<td>PWM</td>
+<td>Pulse width (when square selected)</td>
+</tr>
+</tbody>
+</table>
+<p>Both oscillators share the same controls but have independent TUNE knobs. OSC 2 can be detuned or used as an LFO.</p>
+<hr />
+<h2 id="filter">Filter</h2>
+<p>Steiner-Parker multimode filter — simultaneously outputs LP, BP, HP, and Notch from a single input.</p>
+<table>
+<thead>
+<tr>
+<th>Jack</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FILTER IN</td>
+<td>Patch external audio here to process through the filter</td>
+</tr>
+<tr>
+<td>LP OUT</td>
+<td>Low-pass output</td>
+</tr>
+<tr>
+<td>BP OUT</td>
+<td>Band-pass output</td>
+</tr>
+<tr>
+<td>HP OUT</td>
+<td>High-pass output</td>
+</tr>
+<tr>
+<td>NOTCH OUT</td>
+<td>Notch output</td>
+</tr>
+<tr>
+<td>CUTOFF CV</td>
+<td>External cutoff modulation</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="patch-points-selected">Patch Points (selected)</h2>
+<table>
+<thead>
+<tr>
+<th>Jack</th>
+<th>Direction</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OSC 1/2 OUT</td>
+<td>Out</td>
+<td>Individual oscillator outputs</td>
+</tr>
+<tr>
+<td>FILTER IN</td>
+<td>In</td>
+<td>Audio input to filter</td>
+</tr>
+<tr>
+<td>EXT IN</td>
+<td>In</td>
+<td>External audio into mixer</td>
+</tr>
+<tr>
+<td>ENV OUT</td>
+<td>Out</td>
+<td>Envelope CV output</td>
+</tr>
+<tr>
+<td>LFO OUT</td>
+<td>Out</td>
+<td>LFO CV output</td>
+</tr>
+<tr>
+<td>VCA IN</td>
+<td>In</td>
+<td>Bypass internal routing, feed VCA directly</td>
+</tr>
+<tr>
+<td>MIDI IN</td>
+<td>In</td>
+<td>3.5mm TRS MIDI (Type A)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="notes">Notes</h2>
+<p><strong>Eurorack integration:</strong> The Neutron runs at Eurorack signal levels (+/-5V audio, 0–5V CV). Patch its ENV OUT or LFO OUT into modules directly, or send Eurorack CV into CUTOFF CV or OSC 1/2 inputs.</p>
+<p><strong>Paraphony:</strong> Both oscillators track the same MIDI pitch by default. In paraphonic mode, they play the last two notes held simultaneously through the shared filter.</p>
+<p><strong>Bypass Overdrive:</strong> The neutron signal path takes the VCF output into the overdrive before it feeds it into the VCA. Patch VCF1 output to VCA1 to bypass the overdrive.</p>
+</section>
+
+            </main>
+        </div>
+        <hr><footer>
+    <div class="terminal-mkdocs-footer-grid">
+        <div id="terminal-mkdocs-footer-copyright-info">
+             Site built with <a href="http://www.mkdocs.org">MkDocs</a> and <a href="https://github.com/ntno/mkdocs-terminal">Terminal for MkDocs</a>.
+        </div>
+    </div>
+</footer>
+    </div>
+
+    
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="alertdialog" aria-modal="true" aria-labelledby="searchModalLabel">
+    <div class="modal-dialog modal-lg" role="search">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchModalLabel">Search</h5>
+                <button type="button" class="close btn btn-default btn-ghost" data-dismiss="modal" aria-label="Close">x</button>
+            </div>
+            <div class="modal-body">
+                <p id="searchInputLabel">Type to start searching</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" aria-labelledby="searchInputLabel" placeholder="" id="mkdocs-search-query" title="Please enter search terms here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No document matches found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+</body>
+
+</html>
