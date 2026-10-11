@@ -17,6 +17,7 @@ Euroack modules in the studio.
 ## Sequencers
 - [Cre8Audio Cellz](cellz.md) - A dual unipolar control voltage generator with 16 touch sensitive pads
 - [Noise Engineering Numeric Repetitor](numeric-repetitor.md) - 8HP rhythmic gate generator with binary pattern multiplication
+- [Make Noise René (v1)](rene.md) - 34HP Cartesian sequencer with independent X/Y clocking
 
 ## Drums
 - [Endorphin.es Queen of Pentacles](queen-of-pentacles.md) - 7-voice hybrid analog/sample drum module with onboard effects
