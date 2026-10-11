@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="generator" content="mkdocs-1.6.1, mkdocs-terminal-4.8.0">
+    
+    <meta name="description" content="Modular Synth Manuals and Inventory"> 
+     
+    
+    <link rel="canonical" href="https://lenarddome.github.io/eurorack/modules/queen-of-pentacles/"><link rel="icon" type="image/png" sizes="192x192" href="../../img/android-chrome-192x192.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="../../img/android-chrome-512x512.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="../../img/apple-touch-icon.png" />
+<link rel="shortcut icon" type="image/png" sizes="48x48" href="../../img/favicon.ico" />
+<link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon-32x32.png" />
+
+
+    
+ 
+<title>Endorphin.es Queen of Pentacles - Eurorack</title>
+
+
+<link href="../../css/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+<link href="../../css/fontawesome/css/solid.min.css" rel="stylesheet">
+<link href="../../css/normalize.css" rel="stylesheet">
+<link href="../../css/terminal.css" rel="stylesheet">
+<link href="../../css/theme.css" rel="stylesheet">
+<link href="../../css/theme.tile_grid.css" rel="stylesheet">
+<link href="../../css/theme.footer.css" rel="stylesheet">
+<!-- default color palette -->
+<link href="../../css/palettes/default.css" rel="stylesheet">
+
+<!-- page layout -->
+<style>
+/* initially set page layout to a one column grid */
+.terminal-mkdocs-main-grid {
+    display: grid;
+    grid-column-gap: 1.4em;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+/*  
+*   when side navigation is not hidden, use a two column grid.  
+*   if the screen is too narrow, fall back to the initial one column grid layout.
+*   in this case the main content will be placed under the navigation panel. 
+*/
+@media only screen and (min-width: 70em) {
+    .terminal-mkdocs-main-grid {
+        grid-template-columns: 4fr 9fr;
+    }
+}</style>
+
+
+
+     
+    
+    
+
+    
+    <!-- search css support -->
+<link href="../../css/search/bootstrap-modal.css" rel="stylesheet">
+<!-- search scripts -->
+<script>
+    var base_url = "../..",
+    shortcuts = "{}";
+</script>
+<script src="../../js/jquery/jquery-1.10.1.min.js" defer></script>
+<script src="../../js/bootstrap/bootstrap.min.js" defer></script>
+<script src="../../js/mkdocs/base.js" defer></script>
+    
+    
+    
+    
+    <script src="../../search/main.js"></script>
+    
+
+    
+</head>
+
+<body class="terminal"><div class="container">
+    <div class="terminal-nav">
+        <header class="terminal-logo">
+            <div id="mkdocs-terminal-site-name" class="logo terminal-prompt"><a href="https://lenarddome.github.io/eurorack/" class="no-style">Eurorack</a></div>
+        </header>
+        
+        <nav class="terminal-menu">
+            
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../.." class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Home</span>
+                    </a>
+                    <meta property="position" content="0">
+                </li>
+                
+                
+                
+                
+                
+                
+                <li property="itemListElement" typeof="ListItem">
+                    <a href="../../inventory/" class="menu-item " property="item" typeof="WebPage">
+                        <span property="name">Inventory</span>
+                    </a>
+                    <meta property="position" content="1">
+                </li>
+                
+                    
+                    
+
+
+<li property="itemListElement" typeof="ListItem">
+    <a href="#" class="menu-item" data-toggle="modal" data-target="#mkdocs_search_modal" property="item" typeof="SearchAction">
+        <i aria-hidden="true" class="fa fa-search"></i> <span property="name">Search</span>
+    </a>
+    <meta property="position" content="2">
+</li>
+                    
+            </ul>
+            
+        </nav>
+    </div>
+</div>
+        
+    <div class="container">
+        <div class="terminal-mkdocs-main-grid"><aside id="terminal-mkdocs-side-panel"><nav>
+    <ul class="terminal-mkdocs-side-nav-items">
+        
+          <li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../..">Home</a>
+        
+    
+    
+    
+       </li>
+        
+          <li class="terminal-mkdocs-side-nav-li">
+    
+        
+        
+            
+            
+                
+                
+        
+             
+            
+    
+        
+        <a class="terminal-mkdocs-side-nav-item" href="../">Modules</a>
+    
+    
+        
+        
+            <ul class="terminal-mkdocs-side-nav-li-ul">
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-mixers/">Mixers</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-utility/">Utility</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-vca/">VCA</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-output/">Output</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-vco/">VCO</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-sequencer/">Sequencer</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-drums/">Drums</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/modules-power/">Power</a>
+        
+    
+    </li>
+            
+            
+    </ul>
+        
+    
+       </li>
+        
+          <li class="terminal-mkdocs-side-nav-li">
+    
+        
+        
+            
+            
+                
+                
+        
+             
+            
+    
+        
+        <a class="terminal-mkdocs-side-nav-item" href="../../gear/">Gear</a>
+    
+    
+        
+        
+            <ul class="terminal-mkdocs-side-nav-li-ul">
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/gear-synthesizers/">Synthesizers</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/gear-controllers/">Controllers</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/gear-audio-interface/">Audio Interface</a>
+        
+    
+    </li>
+            
+        
+            
+            
+                
+                
+            
+             
+                <li class="terminal-mkdocs-side-nav-li-ul-li">
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../_categories/gear-cases/">Cases</a>
+        
+    
+    </li>
+            
+            
+    </ul>
+        
+    
+       </li>
+        
+          <li class="terminal-mkdocs-side-nav-li">
+    
+    
+    
+        
+        
+            <a class="terminal-mkdocs-side-nav-item" href="../../inventory/">Inventory</a>
+        
+    
+    
+    
+       </li>
+        
+    </ul>
+</nav><hr>
+<nav>
+    <ul>
+        <li><a href="#endorphines-queen-of-pentacles">Endorphin.es Queen of Pentacles</a></li>
+        <li><a href="#overview">Overview</a></li><li><a href="#inputs-outputs">Inputs &amp; Outputs</a></li><li><a href="#effects-banks">Effects Banks</a></li><li><a href="#patching-notes">Patching Notes</a></li>
+    </ul>
+</nav>
+</aside>
+            <main id="terminal-mkdocs-main-content">
+<section id="mkdocs-terminal-content">
+    <h1 id="endorphines-queen-of-pentacles">Endorphin.es Queen of Pentacles</h1>
+<p><img alt="Queen of Pentacles module" src="../../assets/queen-of-pentacles.webp" width="600" /></p>
+<p><strong>Manufacturer:</strong> Endorphin.es<br />
+<strong>Type:</strong> Hybrid Analog/Sample Drum Voice + Effects<br />
+<strong>HP:</strong> 30 | <strong>Depth:</strong> 26.5mm<br />
+<strong>Power:</strong> +12V 350mA / -12V 90mA</p>
+<p><a href="../../manuals/queen-of-pentacles.pdf">Download Manual</a></p>
+<hr />
+<h2 id="overview">Overview</h2>
+<p>Queen of Pentacles is a 7-voice hybrid drum module: three discrete analog drum circuits (bass drum, snare drum, hand clap) built around band-limited noise generators with spectrum animation, plus four sample-based voices (hi-hats, ride/crash, or user samples) played back at zero latency from a microSD card. A shared master filter (Throttle/Flaps), saturator, and an onboard dual-bank effects processor (16 effects total — ambient "Airways" and percussive "Darkwaves" banks) sit across the final stereo output.</p>
+<hr />
+<h2 id="inputs-outputs">Inputs &amp; Outputs</h2>
+<table>
+<thead>
+<tr>
+<th>Jack</th>
+<th>Signal</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLOCK IN</td>
+<td>Gate/Trig</td>
+<td>Advances the manual launch buttons in sequence when clocked</td>
+</tr>
+<tr>
+<td>BD / SD / CP TRIG</td>
+<td>Gate/Trig</td>
+<td>Triggers the analog bass drum, snare, and clap</td>
+</tr>
+<tr>
+<td>S1–S4 TRIG</td>
+<td>Gate/Trig</td>
+<td>Triggers the four sample-based voices</td>
+</tr>
+<tr>
+<td>BD / SD / CP ACC-VEL CV</td>
+<td>CV 0–5V</td>
+<td>Accent/velocity CV for the analog drums; also colors tone depending on voice</td>
+</tr>
+<tr>
+<td>S1–S4 CHOKE CV</td>
+<td>CV</td>
+<td>Choke input for sample voices (e.g. closed/open hi-hat)</td>
+</tr>
+<tr>
+<td>VCF CV IN</td>
+<td>CV 0–5V</td>
+<td>Modulates the master filter (Throttle/Flaps)</td>
+</tr>
+<tr>
+<td>CABIN PRESSURE CV IN</td>
+<td>CV -5–+5V</td>
+<td>Modulates effect dry/wet amount</td>
+</tr>
+<tr>
+<td>CABIN FEVER CV IN</td>
+<td>CV</td>
+<td>Modulates the secondary effect parameter (decay, feedback, etc., depends on effect)</td>
+</tr>
+<tr>
+<td>AUX IN</td>
+<td>Audio (stereo 3.5mm)</td>
+<td>External audio returned through the effect processor and summed into the output</td>
+</tr>
+<tr>
+<td>BD / SD / CP OUT</td>
+<td>Audio</td>
+<td>Individual analog drum outputs — patching removes that voice from the final mix</td>
+</tr>
+<tr>
+<td>S1/2, S3/4 OUT</td>
+<td>Audio</td>
+<td>Grouped sample outputs — patching removes those voices from the final mix</td>
+</tr>
+<tr>
+<td>OUT 1 / OUT 2</td>
+<td>Audio (stereo, 3.5mm)</td>
+<td>Final balanced master outputs</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="effects-banks">Effects Banks</h2>
+<p>A single "type" button cycles through 8 effects per bank; "tap" selects the bank and drives tap-tempo/secondary parameters.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Airways (ambient)</th>
+<th>Darkwaves (percussive)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Hall Reverb</td>
+<td>Gated Reverb</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Shimmer Reverb</td>
+<td>Spring Reverb</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Room Reverb</td>
+<td>Reversed Reverb</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Plate Reverb</td>
+<td>Flanger</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Spring Reverb</td>
+<td>Ring Modulator</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Ping-Pong Delay</td>
+<td>Overdrive</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Tape Echo</td>
+<td>Peak Compressor</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Chorus</td>
+<td>Freezer/Looper</td>
+</tr>
+</tbody>
+</table>
+<p>The CABIN PRESSURE knob always sets dry/wet; CABIN FEVER sets a secondary, effect-dependent parameter (hold TAP &gt;1s to toggle it).</p>
+<hr />
+<h2 id="patching-notes">Patching Notes</h2>
+<p><strong>Removing a voice from the mix:</strong> Each drum output (BD, SD, CP, S1/2, S3/4) is normalled into the final stereo bus. Patching a cable out of one pulls that voice out of OUT 1/2 so it can be processed or recorded separately.</p>
+<p><strong>Sample banks:</strong> Eight banks of four samples live on the microSD card, selected with a long (2s) press of the bank button — useful for switching kits between patches without re-patching triggers.</p>
+<p><strong>Effects as sends:</strong> Route external audio into AUX IN to run it through the onboard reverb/delay bank alongside the drums, rather than only using the processor on the internal voices.</p>
+</section>
+
+            </main>
+        </div>
+        <hr><footer>
+    <div class="terminal-mkdocs-footer-grid">
+        <div id="terminal-mkdocs-footer-copyright-info">
+             Site built with <a href="http://www.mkdocs.org">MkDocs</a> and <a href="https://github.com/ntno/mkdocs-terminal">Terminal for MkDocs</a>.
+        </div>
+    </div>
+</footer>
+    </div>
+
+    
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="alertdialog" aria-modal="true" aria-labelledby="searchModalLabel">
+    <div class="modal-dialog modal-lg" role="search">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchModalLabel">Search</h5>
+                <button type="button" class="close btn btn-default btn-ghost" data-dismiss="modal" aria-label="Close">x</button>
+            </div>
+            <div class="modal-body">
+                <p id="searchInputLabel">Type to start searching</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" aria-labelledby="searchInputLabel" placeholder="" id="mkdocs-search-query" title="Please enter search terms here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No document matches found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+</body>
+
+</html>
